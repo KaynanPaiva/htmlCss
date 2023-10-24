@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frequência SAM</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+    <link rel="icon" href="img/iconCeara.png" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Noto+Sans+JP:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="navBarInicial">
+      <div id="margemSuperior"></div>
+      <section id="fundoVerde">
+        <div id="centroVerde">
+          <img
+            src="img/logotipoCeara.svg"
+            alt="logotipoCeara"
+            id="logotipoCeara"
+          />
+        </div>
+      </section>
+      <section id="fundoBranco">
+        <div id="containerOndasNav">
+          <div id="containerOnda1">
+            <img src="img/onda1Amarela2.svg" alt="SVGWave" id="onda1Amarela" />
+          </div>
+          <div id="containerOnda2">
+            <img src="img/onda1Verde.svg" alt="SVGWave" id="onda1Verde" />
+          </div>
+          <div id="containerOnda3">
+            <img src="img/onda2Amarela.svg" alt="SVGWave" id="onda2Amarela" />
+          </div>
+          <div id="containerOnda4">
+            <img src="img/onda2Verde.svg" alt="SVGWave" id="onda2Verde" />
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <div class="containerLinhas">
+        <div class="linhaVerde"></div>
+        <div class="linhaLaranja"></div>
+      </div>
+      <div class="contentMain">
+        <aside class="asideRight">
+          <div class="containerBotaoLink">
+            <div id="containerBotaoDropdwon">
+              <button id="botaoEntrarDropdown">
+                Entrar como
+                <i id="iconDropdown" class="bx bx-chevron-down"></i>
+              </button>
+            </div>
+
+            <ul class="listaDropdown">
+              <li class="itemDropdown">Líder</li>
+              <li class="itemDropdown" id="itemDropdown2">Gestão</li>
+            </ul>
+          </div>
+
+          <div class="containerBotaoLink">
+            <div id="containerBotaoDropdwon">
+              <button id="botaoEntrarDropdown">
+                Entrar como
+                <i id="iconDropdown" class="bx bx-chevron-down"></i>
+              </button>
+            </div>
+
+            <ul class="listaDropdown">
+              <li class="itemDropdown">Líder</li>
+              <li class="itemDropdown" id="itemDropdown2">Gestão</li>
+            </ul>
+          </div>
+        </aside>
+
+        <div class="containerLogo">
+          <div class="contentLogo">
+            <div id="iconLogo">
+              <i class="bx bxs-pen"></i>
+            </div>
+            <div id="textoLogo">
+              <h1 id="textoLogo1">frequência</h1>
+              <h1 id="textoLogo2">SAM</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="linhaCentral"></div>
+
+        <aside class="asideLeft">
+          <div id="containerTexto" class="textoPadrao textoTela">
+            <div id="texto1" class="textoDestaque">
+              <div class="titulo">Quem somos?</div>
+              <div class="paragrafo">
+                <p>
+                  Frequência SAM é o sistema desenvolvido por uma equipe
+                  selecionada dentre os educandos da turma de 2º
+                  Desenvolvimento, da EEEP Salomão, com objetivo de facilitar o
+                  processo de registro da frequência escolar dos nossos
+                  estudantes. Essa facilitação consiste em, por meio do app,
+                  mandar os dados da frequência diretamente para a secretaria da
+                  escola.
+                </p>
+              </div>
+            </div>
+
+            <div id="texto2" class="textoSecundario">
+              <div class="titulo">Como funcionamos</div>
+              <div class="paragrafo">
+                <p>
+                  A Frequência é uma ação de parceria do núcleo gestor, a
+                  secretaria da escola e a liderança individual de cada sala.
+                  Diariamente o líder faz a frequência por meio do software, que
+                  encaminha os dados diretamente para a secretaria escolar e
+                  assim, de lá, o banco de dados é alimentado.
+                </p>
+              </div>
+            </div>
+
+            <div id="containerBotoes">
+              <button
+                id="botaoTexto1"
+                class="botaoAlterarTexto botaoDestaque"
+                onclick="apresentarTexto1()"
+              ></button
+              ><button
+                id="botaoTexto2"
+                class="botaoAlterarTexto botaoFosco"
+                onclick="apresentarTexto2()"
+              ></button>
+            </div>
+          </div>
+        </aside>
+      </div>
+      <div class="containerLinhasBottom">
+        <div class="linhaLaranja"></div>
+        <div class="linhaVerde"></div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
